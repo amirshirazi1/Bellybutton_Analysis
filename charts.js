@@ -103,6 +103,7 @@ function buildCharts(sample) {
       paper_bgcolor: '#e6ffff',
       plot_bgcolor: '#e6ffff'
     };
+    
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot('bar', barData, barLayout)
     
